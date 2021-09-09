@@ -1,0 +1,11 @@
+CREATE TABLE IF NOT EXISTS store_catalog (
+    id BIGINT(20) PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR (50) NOT NULL,
+    cnpj VARCHAR (14) NOT NULL,
+    status BOOLEAN DEFAULT TRUE,
+    creation_date TIMESTAMP NOT NULL,
+    change_date TIMESTAMP NULL DEFAULT NULL,
+    creation_user VARCHAR (255) NOT NULL,
+    change_user VARCHAR (255)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+

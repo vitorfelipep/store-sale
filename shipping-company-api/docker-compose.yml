@@ -1,0 +1,12 @@
+version: "3.7"
+services:
+  mysql_catalog:
+    container_name: mysql_shipping_company
+    image: mysql:5.7
+    environment:
+      MYSQL_DATABASE: shipping_company_db
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_USER: admin
+      MYSQL_PASSWORD: admin
+    ports:
+      - "3308:3306"

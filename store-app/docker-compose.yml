@@ -1,0 +1,12 @@
+version: "3.7"
+services:
+  mysql_catalog:
+    container_name: mysql_store
+    image: mysql:5.7
+    environment:
+      MYSQL_DATABASE: store_app
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_USER: admin
+      MYSQL_PASSWORD: admin
+    ports:
+      - "3307:3306"
