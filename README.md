@@ -3,7 +3,7 @@ Pequeno sistema de vendas on line de uma loja com spring cloud.
 Este é um workflow baseado em microservices utilizando as stacks do spring cloud...
 É um conceito para utilização de comunicação entre microsevirços em HTTP request bem básico. Mas com ganchos para arquitetura de eventos como kafka cloud.
 
-Obs: Um um bug no api gatway na parametrização que vi antes antes de dar o primeiro comit. Porém, não foi ajeitado ainda. Ajeitarei em breve, pois as request com paths que possuem parametros o api gateway não esta registrando. 
+Obs: Um bug no api gatway na parametrização que vi antes antes de dar o primeiro comit. Porém, não foi ajeitado ainda. Ajeitarei em breve, pois as request com paths que possuem parametros o api gateway não esta registrando. 
 
 Exemplo: (shipping-company-api - http://localhost:8082/v1/requests/trackings/6f1594fc-6aa6-4ad8-83ed-30b437e0b2ea/order/3)
 
