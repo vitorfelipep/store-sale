@@ -31,7 +31,7 @@ Exemplo: (shipping-company-api - http://localhost:8082/v1/requests/trackings/6f1
 
 Para acessar o swagger das aplicações, se atentar em visualizar a porta que é gerada de forma randomica.
 
-![alt text](https://drive.google.com/file/d/16mtWex20-WI3eV1rGQ9SGQDx2W1rYJ1g/view?usp=sharing)
+![alt text](eureka.png)
 
 - [store-sale] - http://localhost/{PORT}/swagger-ui/index.html
 - [shipping-company-api] - http://localhost/{PORT}/swagger-ui/index.html
