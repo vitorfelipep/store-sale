@@ -39,9 +39,9 @@ Para acessar o swagger das aplicações, se atentar em visualizar a porta que é
 
 ## Commits Guideline
 
-Nós possuímos regras e padrões sobre como as nossas mensagens de commit devem ser formatadas. Isso nós oferece uma melhor experiência na hora de acompaharmos o history do projeto.
+Neste projeto seguiremos as regras e padrões sobre como as nossas mensagens de commit devem ser formatadas. Isso nós oferece uma melhor experiência na hora de acompaharmos o history do projeto.
 
-Utilizamos o padrão de [conventional commits](https://www.conventionalcommits.org/), logo todos os commits neste repositório deverão seguir essa convenção.
+Utilizaremos o padrão de [conventional commits](https://www.conventionalcommits.org/), logo todos os commits neste repositório deverão seguir essa convenção.
 
 ### Formato do Commit
 
